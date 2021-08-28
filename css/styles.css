@@ -1,0 +1,87 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-content{
+    width: 80%;
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.page-content div{
+    border: 1px solid transparent;
+    padding: 2rem;
+}
+.header-title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: hsl(0, 0%, 95%);
+}
+
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0 0;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 1rem 1rem;
+}
+.description{
+    margin: 2rem 0;
+}
+.learn-more{
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 12px 16px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1.5rem;
+}
+.sedans .learn-more{
+    color:hsl(31, 77%, 52%);
+}
+.suvs .learn-more{
+    color:hsl(184, 100%, 22%);
+}
+.luxury .learn-more{
+    color:hsl(179, 100%, 13%);
+}
+
+.attribution{
+    margin: 5rem 2rem 2rem 0;
+
+}
+
+@media screen and (min-width: 400px) {
+    .page-content{
+        width: 60%;
+        flex-direction: row;
+    }
+    .sedans{
+        border-radius: 1rem 0 0 1rem;
+    }
+    .luxury{
+        border-radius: 0 1rem 1rem 0;
+    }
+    .attribution{
+        margin: 5rem 0 0 0;
+    }
+}
