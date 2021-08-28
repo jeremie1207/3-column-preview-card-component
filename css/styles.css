@@ -16,12 +16,11 @@ body{
 }
 
 .page-content{
-    height: 80vh;
+    height: 70vh;
     width: 80%;
     margin: 4rem 2rem;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
     
 }
 .page-content div{
@@ -33,6 +32,7 @@ body{
     font-weight: 700;
     margin: 2rem 0;
     color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
 }
 
 .sedans, .suvs, .luxury{
