@@ -16,10 +16,12 @@ body{
 }
 
 .page-content{
+    height: 80vh;
     width: 80%;
     margin: 4rem 2rem;
     display: flex;
     flex-direction: column;
+    
     
 }
 .page-content div{
@@ -33,6 +35,14 @@ body{
     color: hsl(0, 0%, 95%);
 }
 
+.sedans, .suvs, .luxury{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
 .sedans{
     background-color: hsl(31, 77%, 52%);
@@ -67,6 +77,7 @@ body{
 
 .attribution{
     margin: 5rem 2rem 2rem 0;
+    display: none;
 
 }
 
